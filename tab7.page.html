@@ -1,0 +1,16 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Acelerometro</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+  <div full><h1> X : {{x}} </h1> </div>
+  <div full><h1> Y : {{y}} </h1> </div>
+  <div full><h1> Z : {{z}} </h1> </div>
+  <div full><h1> id : {{id}} </h1> </div>
+  <div full><h1> TimeStamp : {{timestamp}} </h1> </div>
+  <ion-button expand = "full" (click)= start()>Comenzar</ion-button>
+  <ion-button expand = "full" (click)= stop()>Parar</ion-button>
+
+</ion-content>
